@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	​
+	<link rel="stylesheet" type="text/css" href="ShopDisplay.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome-all.min.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="w3.css">
+	<link rel="stylesheet" type="text/css" href="header.css">
+</head>
+
+<body>
+
+
+
+
+	<div class="headerNav">
+
+		<div class="headerFlexBox">
+
+			<div class="socialMediaBox">
+				<img class="socialMediaImage" src="./content/facebook_icon_small.png" />
+				<img class="socialMediaImage" src="./content/instagram_icon_small.png" />
+
+			</div>
+
+			<div class="shoppingCartImage">
+				<img class="shoppingCart" src="./content/shopping_cart-24px.svg" />
+				<span id="cartItemAmount">0</span>
+			</div>
+
+
+			<div class="shopItemDisplayContainer">
+
+				<div class="shopItemDisplayPrimaryRow">
+					<div class="mainDiv">
+
+
+						<div class="topRow">
+							<div class="imgScroll" id="ScrollBack" onClick={this.handleScrollClick}>
+								<img id="ScrollBack" src="./content/images/arrow_left-24px.svg" />
+							</div>
+							<img class="primaryImage" id="primaryImg" name="0" src="./content/splash.jpg" />
+							<div class="imgScroll" id="ScrollForward" onClick={this.handleScrollClick}>
+								<img id="ScrollBack" src="./content/images/arrow_right-24px.svg" />
+							</div>
+						</div>
+
+						<div class="bottomRow">
+
+
+							<img class="secondaryImage" src="./content/splash.jpg" />
+							<img class="secondaryImageHighlight" src="./content/splash.jpg" />
+
+
+						</div>
+					</div>
+
+				</div>
+
+
+				<div class="detailedDescription">
+					<p>
+						Short product description
+					</p>
+				</div>
+			</div>
+
+
+			<div class="addItemCenteredDiv">
+				<button class="addItemButton clickable" onClick={this.handleSubmit}>Add Item To Cart</button>
+			</div>
+		</div>
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
+`
